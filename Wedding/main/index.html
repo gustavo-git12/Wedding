@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo & Clarisse</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">G&C</div>
+
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#evento">Evento</a></li>
+                <li><a href="#presentes">Presentes</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <div class="overlay">
+
+            <h1>Gustavo & Clarisse</h1>
+
+            <p>24 de Abril de 2027</p>
+
+        </div>
+
+    </section>
+
+    <section class="countdown">
+
+        <h2>Contagem Regressiva</h2>
+
+        <div id="countdown">
+
+            <script src="js/countdown.js"></script>
+
+        </div>
+
+    </section>
+
+    <section id="historia" class="section">
+
+        <h2>Nossa História</h2>
+
+        <div class="timeline">
+
+            <div class="card">
+                <h3>2021</h3>
+                <p>Nos conhecemos</p>
+            </div>
+
+            <div class="card">
+                <h3>2023</h3>
+                <p>Começamos a namorar</p>
+            </div>
+
+            <div class="card">
+                <h3>2026</h3>
+                <p>Ficamos noivos</p>
+            </div>
+
+            <div class="card">
+                <h3>2027</h3>
+                <p>Nosso casamento</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="evento" class="section">
+
+        <h2>Informações do Evento</h2>
+
+        <div class="event-box">
+
+            <p><strong>Data:</strong> 24/04/2027</p>
+
+            <p><strong>Horário:</strong> 16h00</p>
+
+            <p><strong>Local:</strong>Espaço Eco Polônia</p>
+
+            <a
+                href="https://maps.app.goo.gl/gnW1X1iJTrKBsKLr7"
+                target="_blank"
+                class="btn">
+                Ver Localização
+            </a>
+
+        </div>
+
+    </section>
+
+    <section id="presentes" class="section">
+
+        <h2>Lista de Presentes</h2>
+
+        <p>
+            Sua presença já é um presente, mas caso queira nos presentear:
+        </p>
+
+        <a href="#" class="btn">
+            Ver Lista
+        </a>
+
+    </section>
+
+    <section id="rsvp" class="section">
+
+        <h2>Confirme sua Presença</h2>
+
+        <form id="rsvpForm">
+
+            <input
+                type="text"
+                placeholder="Seu nome"
+                required>
+
+            <input
+                type="number"
+                placeholder="Quantidade de convidados"
+                required>
+
+            <button type="submit">
+                Confirmar
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </section>
+
+    <section class="gallery">
+
+        <h2>Galeria</h2>
+
+        <div class="gallery-grid">
+
+            <img src="images/casal1.jpg">
+            <img src="images/casal2.jpg">
+            <img src="images/casal3.jpg">
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h3>Gustavo & Clarisse</h3>
+
+        <p>Obrigado por fazer parte da nossa história ❤️</p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
